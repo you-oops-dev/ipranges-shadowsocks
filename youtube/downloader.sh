@@ -8,6 +8,8 @@ set -x
 add_domain() {
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/antonme/ipnames/master/ext-dns-youtube.txt > /tmp/"$1"_domain.txt
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/antonme/ipnames/master/dns-youtube.txt >> /tmp/"$1"_domain.txt
+curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/refs/heads/master/dns-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain failed"
+curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 2 failed"
 dos2unix /tmp/"$1"_domain.txt
 sort /tmp/"$1"_domain.txt | uniq | sponge /tmp/"$1"_domain.txt
 # Prepare domain
