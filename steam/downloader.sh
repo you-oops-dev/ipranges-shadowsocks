@@ -6,16 +6,19 @@ set -x
 # Add domain in ACL file
 add_domain() {
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/$NAME_ACCOUNT_GITHUB/ipranges/refs/heads/main/steam/domain.txt > /tmp/"$1"_domain.txt
+echo "steamserver.net
+steampowered.com" >> /tmp/"$1"_domain.txt
 dos2unix /tmp/"$1"_domain.txt
+sed -i 's/^www.//g' /tmp/"$1"_domain.txt
 sort /tmp/"$1"_domain.txt | uniq | grep -i \. | sort | uniq | sponge /tmp/"$1"_domain.txt
 # Prepare domain
 # Delete subdomain in file
-#cat /tmp/"$1"_domain.txt | grep -vEe '(.openai.com|.openai.org|.openai.com.cdn.cloudflare.net|.oaistatic.com)$' > /tmp/"$1"_domain_prepare.txt
-#sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
+cat /tmp/"$1"_domain.txt | grep -vEe '(.steampowered.com|.steamserver.net|.dscb.akamai.net|.fastly.steamstatic.com|.ipv6check.akadns.net)$' > /tmp/"$1"_domain_prepare.txt
+sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
 # Replace . on \.
-#sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
-sed -i 's/\./\\./g' /tmp/"$1"_domain.txt
-mv -f /tmp/"$1"_domain.txt /tmp/"$1"_domain_prepare.txt
+sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
+#sed -i 's/\./\\./g' /tmp/"$1"_domain.txt
+#mv -f /tmp/"$1"_domain.txt /tmp/"$1"_domain_prepare.txt
 # ipv4
 for domain in $(cat /tmp/${1}_domain_prepare.txt); do echo \(\?\:\^\|\\\.\)${domain}$ >> ${1}/ipv4.acl; done
 # ipv6
