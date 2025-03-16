@@ -7,13 +7,16 @@ set -x
 add_domain() {
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/$NAME_ACCOUNT_GITHUB/ipranges/refs/heads/main/steam/domain.txt > /tmp/"$1"_domain.txt
 echo "steamserver.net
-steampowered.com" >> /tmp/"$1"_domain.txt
+steampowered.com
+steamcontent.com
+b.akamai.net
+steamstatic.com" >> /tmp/"$1"_domain.txt
 dos2unix /tmp/"$1"_domain.txt
 sed -i 's/^www.//g' /tmp/"$1"_domain.txt
 sort /tmp/"$1"_domain.txt | uniq | grep -i \. | sort | uniq | sponge /tmp/"$1"_domain.txt
 # Prepare domain
 # Delete subdomain in file
-cat /tmp/"$1"_domain.txt | grep -vEe '(.steampowered.com|.steamserver.net|.dscb.akamai.net|.fastly.steamstatic.com|.ipv6check.akadns.net)$' > /tmp/"$1"_domain_prepare.txt
+cat /tmp/"$1"_domain.txt | grep -vEe '(.steampowered.com|.steamserver.net|.dscb.akamai.net|.fastly.steamstatic.com|.ipv6check.akadns.net|.akamai.steamstatic.com|.steamcontent.com|.b.akamai.net|.steamstatic.com)$' > /tmp/"$1"_domain_prepare.txt
 sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
 # Replace . on \.
 sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
