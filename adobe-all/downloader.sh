@@ -12,16 +12,15 @@ curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubuserconte
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/adobe | sed 's/ //g' | sed -r '/^\s*$/d' | sed '/!/d' | sed '/!!/d' | sed '/#/d' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/^https\?:\/\///g' | sed 's/full://g' | sed '/IP-CIDR/d' | sed '/@/d' | sed '/:/d' >> /tmp/"$1"_domain.txt
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/adobe-activation | sed 's/ //g' | sed -r '/^\s*$/d' | sed '/!/d' | sed '/!!/d' | sed '/#/d' | sed 's/DOMAIN-SUFFIX,//g' | sed 's/^https\?:\/\///g' | sed 's/full://g' | sed '/IP-CIDR/d' | sed '/@/d' | sed '/:/d' >> /tmp/"$1"_domain.txt
 dos2unix /tmp/"$1"_domain.txt
-sort /tmp/"$1"_domain.txt | uniq | sed 's/^www.//g' | sponge /tmp/"$1"_domain.txt && sleep 1s
-#sed -i 's/^www.//g' /tmp/"$1"_domain.txt
+sed -i 's/^www.//g' /tmp/"$1"_domain.txt
 # Prepare domain
 # Delete subdomain in file
-#cat /tmp/"$1"_domain.txt | grep -vEe '(.openai.com|.openai.org|.openai.com.cdn.cloudflare.net|.oaistatic.com)$' > /tmp/"$1"_domain_prepare.txt
-#sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
+cat /tmp/"$1"_domain.txt | grep -vEe '(.adobe.com|.adobe.io)$' > /tmp/"$1"_domain_prepare.txt
+sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
 # Replace . on \.
-#sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
-sed -i 's/\./\\./g' /tmp/"$1"_domain.txt
-mv -f /tmp/"$1"_domain.txt /tmp/"$1"_domain_prepare.txt
+sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
+#sed -i 's/\./\\./g' /tmp/"$1"_domain.txt
+#mv -f /tmp/"$1"_domain.txt /tmp/"$1"_domain_prepare.txt
 # ipv4
 for domain in $(cat /tmp/${1}_domain_prepare.txt); do echo \(\?\:\^\|\\\.\)${domain}$ >> ${1}/ipv4.acl; done
 # ipv6
