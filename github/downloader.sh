@@ -12,9 +12,11 @@ sort /tmp/"$1"_domain.txt | uniq | sponge /tmp/"$1"_domain.txt
 # Prepare domain
 # Add domain (Fixing)
 echo "githubusercontent.com
-core.windows.net" >> /tmp/"$1"_domain.txt
+core.windows.net
+githubapp.com
+github.io" >> /tmp/"$1"_domain.txt
 # Delete subdomain in file
-cat /tmp/"$1"_domain.txt | grep -vEe '(.githubusercontent.com|.github.com|.core.windows.net)$' > /tmp/"$1"_domain_prepare.txt
+cat /tmp/"$1"_domain.txt | grep -vEe '(.githubusercontent.com|.github.com|.core.windows.net|.githubapp.com|.github.io)$' > /tmp/"$1"_domain_prepare.txt
 sort -h /tmp/"$1"_domain_prepare.txt | uniq | sponge /tmp/"$1"_domain_prepare.txt
 # Replace . on \.
 sed -i 's/\./\\./g' /tmp/"$1"_domain_prepare.txt
