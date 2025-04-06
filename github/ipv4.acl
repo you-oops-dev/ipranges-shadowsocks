@@ -2,11 +2,11 @@
 [proxy_list]
 (?:^|\.)core\.windows\.net$
 (?:^|\.)default\.exp-tas\.com$
-(?:^|\.)fulcio\.githubapp\.com$
 (?:^|\.)ghcr\.io$
+(?:^|\.)githubapp\.com$
 (?:^|\.)github\.com$
+(?:^|\.)github\.io$
 (?:^|\.)githubusercontent\.com$
-(?:^|\.)timestamp\.githubapp\.com$
 3.217.79.163
 3.217.93.44
 4.147.140.77
