@@ -14,6 +14,7 @@
 (?:^|\.)sponsorblock\.hankmccord\.dev$
 (?:^|\.)video\.google\.com\.ar$
 (?:^|\.)video\.google\.com\.au$
+(?:^|\.)youtube-nocookie\.com$
 (?:^|\.)youtube\.com$
 (?:^|\.)youtube-nocookie\.com$
 (?:^|\.)ytimg\.com$
