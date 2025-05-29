@@ -1,0 +1,7 @@
+[bypass_all]
+[proxy_list]
+(?:^|\.)boxofficemojo\.com$
+(?:^|\.)imdb$
+(?:^|\.)imdb\.com$
+(?:^|\.)imdb\.to$
+(?:^|\.)media-imdb\.com$

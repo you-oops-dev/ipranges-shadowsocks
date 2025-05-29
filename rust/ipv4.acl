@@ -1,0 +1,6 @@
+[bypass_all]
+[proxy_list]
+(?:^|\.)crates\.io$
+(?:^|\.)docs\.rs$
+(?:^|\.)rust-lang\.org$
+(?:^|\.)rustup\.rs$

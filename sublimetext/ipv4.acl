@@ -1,0 +1,6 @@
+[bypass_all]
+[proxy_list]
+(?:^|\.)packagecontrol\.io$
+(?:^|\.)sublimehq\.com$
+(?:^|\.)sublimemerge\.com$
+(?:^|\.)sublimetext\.com$
