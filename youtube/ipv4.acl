@@ -16,5 +16,7 @@
 (?:^|\.)video\.google\.com\.au$
 (?:^|\.)youtube-nocookie\.com$
 (?:^|\.)youtube\.com$
+(?:^|\.)youtubekids\.com$
 (?:^|\.)youtube-nocookie\.com$
 (?:^|\.)ytimg\.com$
+(?:^|\.)yting\.com$
