@@ -8,7 +8,9 @@ set -x
 add_domain() {
 curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/refs/heads/master/dns-youtube.txt > /tmp/"$1"_domain.txt || echo "YouTube: Getting domain failed"
 curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 2 failed"
-curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/antonme/ipnames/master/ext-dns-youtube.txt >> /tmp/"$1"_domain.txt
+curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/master/ext-dns-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 3 failed"
+curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 4 failed"
+curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 5 failed"
 
 echo "img.youtube.com
 ggpht.com
