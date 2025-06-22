@@ -28,22 +28,22 @@ curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubuserconte
 curl --max-time 30 --retry-delay 3 --retry 10 -4s -# https://raw.githubusercontent.com/$NAME_ACCOUNT_GITHUB/ipranges/main/"$1"/ipv6_merged.txt >> /tmp/"$1".txt
 }
 
-#get_prefix 'facebook' || echo 'failed'
+#get_prefix 'meta' || echo 'failed'
 
 # save ipv4
-#grep -v ':' /tmp/facebook.txt | sed 's/\/32//g' > /tmp/facebook-ipv4.txt
+#grep -v ':' /tmp/meta.txt | sed 's/\/32//g' > /tmp/meta-ipv4.txt
 
 # save ipv6
-#grep ':' /tmp/facebook.txt > /tmp/facebook-ipv6.txt
+#grep ':' /tmp/meta.txt > /tmp/meta-ipv6.txt
 
 # Create/Prepare ACL List for Shadowsocks IPv4
-echo -e "[bypass_all]\n[proxy_list]" | tee facebook/ipv4.acl
+echo -e "[bypass_all]\n[proxy_list]" | tee meta/ipv4.acl
 
 # Create/Prepare ACL List for Shadowsocks IPv6
-#echo -e "[bypass_all]\n[proxy_list]" | tee facebook/ipv6.acl
+#echo -e "[bypass_all]\n[proxy_list]" | tee meta/ipv6.acl
 
-add_domain 'facebook' || echo 'failed'
+add_domain 'meta' || echo 'failed'
 
 # sort & uniq
-#sort -h /tmp/facebook-ipv4.txt | uniq >> facebook/ipv4.acl
-#sort -h /tmp/facebook-ipv6.txt | uniq >> facebook/ipv6.acl
+#sort -h /tmp/meta-ipv4.txt | uniq >> meta/ipv4.acl
+#sort -h /tmp/meta-ipv6.txt | uniq >> meta/ipv6.acl
