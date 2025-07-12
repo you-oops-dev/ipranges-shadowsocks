@@ -1,0 +1,7 @@
+[bypass_all]
+[proxy_list]
+(?:^|\.)acer\.com$
+(?:^|\.)acer\.com\.cn$
+(?:^|\.)acer-group\.com$
+(?:^|\.)founderpc\.cn$
+(?:^|\.)founderpc\.com$

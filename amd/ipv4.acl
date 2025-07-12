@@ -1,0 +1,6 @@
+[bypass_all]
+[proxy_list]
+(?:^|\.)amd\.com$
+(?:^|\.)amd\.com\.cn$
+(?:^|\.)amdfanstore\.com$
+(?:^|\.)radeon\.com$

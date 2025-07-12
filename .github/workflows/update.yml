@@ -1,0 +1,71 @@
+name: "Update"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'
+
+jobs:
+  updater:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Settings DoT DNS with systemd-resolved
+        run: |
+         sudo apt update
+         sudo apt install -y bind9-dnsutils sudo --no-install-suggests
+         sudo mkdir -pv /etc/systemd/resolved.conf.d/
+         echo -e "[Resolve]\nDNS=8.8.4.4#dns.google\nFallbackDNS=\nDNSOverTLS=yes\nDNSSEC=yes\nCache=yes\nCacheFromLocalhost=yes\nReadEtcHosts=no" | sudo tee /etc/systemd/resolved.conf.d/google.conf &>/dev/null;
+         echo -e "[Resolve]\nDNS=1.0.0.1#1dot1dot1dot1.cloudflare-dns.com\nFallbackDNS=\nDNSOverTLS=yes\nDNSSEC=yes\nCache=yes\nCacheFromLocalhost=yes\nReadEtcHosts=no" | sudo tee /etc/systemd/resolved.conf.d/cloudflare.conf &>/dev/null;
+         cat /etc/systemd/resolved.conf.d/google.conf
+         echo ""
+         cat /etc/systemd/resolved.conf.d/cloudflare.conf
+         echo ""
+         echo "nameserver 127.0.0.53" | sudo tee /etc/resolv.conf.DNSoverride &>/dev/null;
+         sudo ln -svf /etc/resolv.conf.DNSoverride /etc/resolv.conf
+         cat -n /etc/resolv.conf
+         echo ""
+         cat -n /etc/hosts
+         echo ""
+         sudo systemctl restart systemd-resolved.service
+         sleep 3s
+         nc -z -v 127.0.0.53 53 && echo ""
+
+      - name: Test DNS-query
+        run: |
+         nslookup -type=A google.com
+         echo ""
+         dig google.com A
+      
+      - name: Prepare packages
+        run: sudo apt install -y dos2unix curl gawk language-pack-ru language-pack-en locales moreutils coreutils util-linux bash git && sudo sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && sudo locale-gen --no-purge en_US.UTF-8
+
+      - name: Download CIDR list
+        env:
+          LANG: en_US.UTF-8
+          CHARSET: UTF-8
+          NAME_ACCOUNT_GITHUB: you-oops-dev
+        run: |
+          set -euo pipefail
+          set -x
+          find . -name downloader.sh| sort -h | awk '{print "Executing "$1"...";system("bash "$1)}'
+
+      - name: Protection against empty files (shadowsocks acl file). If one such file is found, no changes will be committed to the repository. Finishing with code 1. Error code for the repository author.
+        env:
+          LANG: en_US.UTF-8
+          CHARSET: UTF-8
+        run: |
+          for filename in $(find . -type f -name "ipv4.acl" -print | sort -t . | uniq); do if [[ -s ${filename} ]]; then echo "No empty $filename";else echo -e "\e[1;33mEmpty\033[0m $filename" && export EMPTY=1; fi; done
+          if [[ $EMPTY == 1 ]]; then exit 1; else echo "OK!"; fi
+
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update ip ranges in ACL format for shadowsocks"
+          file_pattern: '*/*.acl'
+          commit_options: "--no-verify"
+          repository: .
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
