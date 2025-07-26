@@ -1,5 +1,8 @@
 [bypass_all]
 [proxy_list]
+(?:^|\.)de\.youtube\.wikia\.com$
+(?:^|\.)es\.youtube\.wikia\.com$
+(?:^|\.)fr\.youtube\.wikia\.com$
 (?:^|\.)ggpht\.com$
 (?:^|\.)googleapis\.com$
 (?:^|\.)googleusercontent\.com$
@@ -9,6 +12,9 @@
 (?:^|\.)returnyoutubedislike\.com$
 (?:^|\.)sponsor\.ajay\.app$
 (?:^|\.)sponsorblock\.hankmccord\.dev$
+(?:^|\.)video\.google\.com\.ar$
+(?:^|\.)video\.google\.com\.au$
+(?:^|\.)youtube-nocookie\.com$
 (?:^|\.)youtube\.com$
 (?:^|\.)youtubekids\.com$
 (?:^|\.)youtube-nocookie\.com$
