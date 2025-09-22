@@ -1,2 +1,4 @@
 [bypass_all]
 [proxy_list]
+(?:^|\.)rubygems\.org$
+(?:^|\.)ruby-lang\.org$
