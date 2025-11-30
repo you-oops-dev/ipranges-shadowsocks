@@ -6,11 +6,11 @@ set -x
 
 # Add domain in ACL file
 add_domain() {
-curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/refs/heads/master/dns-youtube.txt > /tmp/"$1"_domain.txt || echo "YouTube: Getting domain failed"
-curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 2 failed"
-curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/master/ext-dns-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 3 failed"
-curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 4 failed"
-curl -4s --max-time 30 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 5 failed"
+
+curl -4s --max-time 90 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/refs/heads/master/dns-youtube.txt > /tmp/"$1"_domain.txt || echo "YouTube: Getting domain failed"
+curl -4s --max-time 90 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/bol-van/zapret-win-bundle/refs/heads/master/zapret-winws/files/list-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 2 failed"
+curl -4s --max-time 90 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/antonme/ipnames/master/ext-dns-youtube.txt >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 3 failed"
+curl -4s --max-time 90 --retry-delay 3 --retry 10 https://raw.githubusercontent.com/itdoginfo/allow-domains/refs/heads/main/Services/youtube.lst >> /tmp/"$1"_domain.txt || echo "YouTube: Getting domain 4 failed source itdoginfo"
 
 echo "img.youtube.com
 ggpht.com
@@ -27,7 +27,8 @@ youtube.com
 sponsor.ajay.app
 sponsorblock.hankmccord.dev
 returnyoutubedislike.com
-returnyoutubedislikeapi.com" >> /tmp/"$1"_domain.txt
+returnyoutubedislikeapi.com
+music.youtube.com" >> /tmp/"$1"_domain.txt
 dos2unix /tmp/"$1"_domain.txt
 sort /tmp/"$1"_domain.txt | uniq | sponge /tmp/"$1"_domain.txt
 # Prepare domain
