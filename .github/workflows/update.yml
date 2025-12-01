@@ -9,6 +9,15 @@ jobs:
   updater:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Maximize disk space
+        uses: easimon/maximize-build-space@master
+        with:
+          root-reserve-mb: 5120
+          remove-dotnet: true
+          remove-android: true
+          remove-docker-images: true
+
       - uses: actions/checkout@v4
 
       - name: Settings DoT DNS with systemd-resolved
