@@ -8,7 +8,6 @@
 (?:^|\.)firefox\.com\.cn$
 (?:^|\.)firefoxusercontent\.com$
 (?:^|\.)getpocket\.com$
-(?:^|\.)location\.services\.mozilla\.com$
 (?:^|\.)mdn\.mozillademos\.org$
 (?:^|\.)media\.prod\.mdn\.mozit\.cloud$
 (?:^|\.)mofoprod\.net$
@@ -18,7 +17,6 @@
 (?:^|\.)mozilla\.net$
 (?:^|\.)mozilla\.org$
 (?:^|\.)pocket-image-cache\.com$
-(?:^|\.)push\.services\.mozilla\.com$
 (?:^|\.)rust-lang\.org$
 (?:^|\.)rustup\.rs$
 (?:^|\.)seamonkey-project\.org$
