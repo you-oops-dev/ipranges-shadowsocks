@@ -1,6 +1,5 @@
 [bypass_all]
 [proxy_list]
-(?:^|\.)piwheels\.org$
 (?:^|\.)pycon\.org$
 (?:^|\.)pypa\.io$
 (?:^|\.)pypi\.io$
