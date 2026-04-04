@@ -125,6 +125,7 @@
 (?:^|\.)ftp\.instago\.online$
 (?:^|\.)fund\.scienceagainstaging\.com$
 (?:^|\.)g50s\.devices\.resinstaging\.io$
+(?:^|\.)gateway\.threads\.com$
 (?:^|\.)getinstag\.com$
 (?:^|\.)gibrian\.devices\.resinstaging\.io$
 (?:^|\.)git\.git\.git\.git\.git\.instagram\.bloggare\.eu$
@@ -451,6 +452,7 @@
 (?:^|\.)theinstagators\.buzzsprout\.com$
 (?:^|\.)the-instagram-team\.com$
 (?:^|\.)themainstage\.com$
+(?:^|\.)threads\.com$
 (?:^|\.)threads\.net$
 (?:^|\.)tls13-aud124odingroupsaud121odinstaging\.taboola\.map\.fastly\.net$
 (?:^|\.)useradminstaging\.0api\.live\.data\.spotify\.net$
