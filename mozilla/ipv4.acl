@@ -12,10 +12,13 @@
 (?:^|\.)media\.prod\.mdn\.mozit\.cloud$
 (?:^|\.)mofoprod\.net$
 (?:^|\.)mozgcp\.net$
+(?:^|\.)mozilla\.ai$
 (?:^|\.)mozilla\.com$
 (?:^|\.)mozilla\.community$
+(?:^|\.)mozillafoundation\.org$
 (?:^|\.)mozilla\.net$
 (?:^|\.)mozilla\.org$
+(?:^|\.)mzl\.la$
 (?:^|\.)pocket-image-cache\.com$
 (?:^|\.)rust-lang\.org$
 (?:^|\.)rustup\.rs$
