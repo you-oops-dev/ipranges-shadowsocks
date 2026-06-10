@@ -1,6 +1,7 @@
 [bypass_all]
 [proxy_list]
 (?:^|\.)a9ea2ecd5fd449cab00c6fbfa712af40\.fp\.measure\.office\.com$
+(?:^|\.)aa4074dbbd74b00c579786d2965518577\.profile\.iad55-p7\.cloudfront\.net$
 (?:^|\.)administrador\.www\.facebook\.ec\.serveo\.net$
 (?:^|\.)adminstage1\.gts\.byteoversea\.net$
 (?:^|\.)adminstaging\.app\.os\.fedoraproject\.org$
@@ -387,6 +388,7 @@
 (?:^|\.)mainstages\.com$
 (?:^|\.)marqueemainstage\.org$
 (?:^|\.)messenger\.com$
+(?:^|\.)meta\.graph\.meta\.com$
 (?:^|\.)m\.facebook\.com\.smoothstat\.com$
 (?:^|\.)m\.facebook\.login\.liftomaticindustries\.com$
 (?:^|\.)m\.instagramphotodownload\.cc$
