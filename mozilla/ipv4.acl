@@ -64,5 +64,7 @@
 (?:^|\.)rustup\.rs$
 (?:^|\.)seamonkey-project\.org$
 (?:^|\.)sentry\.prod\.mozaws\.net$
+(?:^|\.)tb\.pro$
 (?:^|\.)thunderbird\.net$
+(?:^|\.)thundermail\.com$
 (?:^|\.)webmademovies\.org$
