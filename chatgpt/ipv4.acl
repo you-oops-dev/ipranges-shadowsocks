@@ -67,6 +67,7 @@
 (?:^|\.)hooks-staging\.chatgpt\.com$
 (?:^|\.)juaneloturriano\.oaistore\.es$
 (?:^|\.)keepone\.chatgpt\.com$
+(?:^|\.)learn\.chatgpt\.com$
 (?:^|\.)mail\.asistentechatgpt\.com$
 (?:^|\.)manage\.openai\.auth0app\.com$
 (?:^|\.)mcp-zoom-us\.web-sandbox\.oaiusercontent\.com$
