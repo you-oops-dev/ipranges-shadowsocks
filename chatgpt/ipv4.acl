@@ -2,6 +2,7 @@
 [proxy_list]
 (?:^|\.)ab\.chatgpt\.com$
 (?:^|\.)aigc-chatgpt\.com$
+(?:^|\.)amb-staging\.chatgpt\.com$
 (?:^|\.)api\.chatgpt\.com$
 (?:^|\.)api\.oaistatsig\.com$
 (?:^|\.)asdk_app_69373a13116c819189d046aea1278836\.web-sandbox\.oaiusercontent\.com$
