@@ -54,6 +54,7 @@
 (?:^|\.)chat\.openai$
 (?:^|\.)chat\.openai\.home\.setia\.ru$
 (?:^|\.)connector_693864f100e4819093e6ed9b651239f1\.web-sandbox\.oaiusercontent\.com$
+(?:^|\.)connector-openai-deep-research\.web-sandbox\.oaiusercontent\.com$
 (?:^|\.)connector_openai_deep_research\.web-sandbox\.oaiusercontent\.com$
 (?:^|\.)cpcontacts\.openai\.idarkode\.in$
 (?:^|\.)desktop\.chatgpt\.com$
