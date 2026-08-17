@@ -1,20 +1,6 @@
 [bypass_all]
 [proxy_list]
-
-  </body>
-  <body>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    <h1>Error 503 first byte timeout</h1>
-    <h3>Error 54113</h3>
-  </head>
-  <head>
-    <hr>
-</html>
-<html>
-    <p>first byte timeout</p>
-    <p>Varnish cache server</p>
-    <title>503 first byte timeout</title>
-<?xml version="1.0" encoding="utf-8"?>
+1.178.100.0/22
 1.178.1.0/24
 1.178.16.0/20
 1.178.172.0/23
