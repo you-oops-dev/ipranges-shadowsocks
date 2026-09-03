@@ -65,6 +65,7 @@
 (?:^|\.)files08\.oaiusercontent\.com$
 (?:^|\.)files09\.oaiusercontent\.com$
 (?:^|\.)files\.oaiusercontent\.com$
+(?:^|\.)gov\.chatgpt\.com$
 (?:^|\.)gov-demo\.chatgpt\.com$
 (?:^|\.)hooks-staging\.chatgpt\.com$
 (?:^|\.)juaneloturriano\.oaistore\.es$
