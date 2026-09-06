@@ -9,6 +9,7 @@
 (?:^|\.)lastfm\.eu$
 (?:^|\.)lastfm\.freetls\.fastly\.net$
 (?:^|\.)lastfm-img2\.akamaized\.net$
+(?:^|\.)lastfm-img\.freetls\.fastly\.net$
 (?:^|\.)lastfm\.ph$
 (?:^|\.)lastfm\.pl$
 (?:^|\.)lastfmpresents\.com$
