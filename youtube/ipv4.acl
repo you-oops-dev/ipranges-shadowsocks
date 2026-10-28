@@ -8,6 +8,8 @@
 (?:^|\.)googleusercontent\.com$
 (?:^|\.)googlevideo\.com$
 (?:^|\.)gstatic\.com$
+(?:^|\.)gvt1\.com$
+(?:^|\.)gvt2\.com$
 (?:^|\.)returnyoutubedislikeapi\.com$
 (?:^|\.)returnyoutubedislike\.com$
 (?:^|\.)sponsor\.ajay\.app$
