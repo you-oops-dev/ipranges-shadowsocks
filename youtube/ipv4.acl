@@ -30,6 +30,7 @@
 (?:^|\.)e2c29\.gcp\.gvt2\.com$
 (?:^|\.)e2c31\.gcp\.gvt2\.com$
 (?:^|\.)e2c34\.gcp\.gvt2\.com$
+(?:^|\.)e2c35\.gcp\.gvt2\.com$
 (?:^|\.)e2c37\.gcp\.gvt2\.com$
 (?:^|\.)e2c38\.gcp\.gvt2\.com$
 (?:^|\.)e2c39\.gcp\.gvt2\.com$
@@ -41,6 +42,7 @@
 (?:^|\.)e2c45\.gcp\.gvt2\.com$
 (?:^|\.)e2c46\.gcp\.gvt2\.com$
 (?:^|\.)e2c47\.gcp\.gvt2\.com$
+(?:^|\.)e2c48\.gcp\.gvt2\.com$
 (?:^|\.)e2c4\.gcp\.gvt2\.com$
 (?:^|\.)e2c50\.gcp\.gvt2\.com$
 (?:^|\.)e2c51\.gcp\.gvt2\.com$
@@ -50,6 +52,7 @@
 (?:^|\.)e2c56\.gcp\.gvt2\.com$
 (?:^|\.)e2c57\.gcp\.gvt2\.com$
 (?:^|\.)e2c59\.gcp\.gvt2\.com$
+(?:^|\.)e2c60\.gcp\.gvt2\.com$
 (?:^|\.)e2c61\.gcp\.gvt2\.com$
 (?:^|\.)e2c64\.gcp\.gvt2\.com$
 (?:^|\.)e2c65\.gcp\.gvt2\.com$
@@ -59,8 +62,12 @@
 (?:^|\.)e2c70\.gcp\.gvt2\.com$
 (?:^|\.)e2c72\.gcp\.gvt2\.com$
 (?:^|\.)e2c74\.gcp\.gvt2\.com$
+(?:^|\.)e2c75\.gcp\.gvt2\.com$
+(?:^|\.)e2c76\.gcp\.gvt2\.com$
+(?:^|\.)e2c78\.gcp\.gvt2\.com$
 (?:^|\.)e2c79\.gcp\.gvt2\.com$
 (?:^|\.)e2c7\.gcp\.gvt2\.com$
+(?:^|\.)e2c80\.gcp\.gvt2\.com$
 (?:^|\.)e2c85\.gcp\.gvt2\.com$
 (?:^|\.)e2c8\.gcp\.gvt2\.com$
 (?:^|\.)e2c9\.gcp\.gvt2\.com$
@@ -437,6 +444,7 @@
 (?:^|\.)rr2---sn-5hne6n6e\.gvt1\.com$
 (?:^|\.)rr2---sn-5hnekn7l\.gvt1\.com$
 (?:^|\.)rr2---sn-ab5l6nr6\.gvt1\.com$
+(?:^|\.)rr2---sn-ab5l6nrd\.gvt1\.com$
 (?:^|\.)rr2\.sn-ab5l6ny7\.gvt1\.com$
 (?:^|\.)rr2---sn-ab5l6ny7\.gvt1\.com$
 (?:^|\.)rr2---sn-aj5go5-5i\.gvt1\.com$
@@ -615,11 +623,13 @@
 (?:^|\.)rr4---sn-5goeenez\.gvt1\.com$
 (?:^|\.)rr4---sn-5hneknes\.gvt1\.com$
 (?:^|\.)rr4---sn-5ua5ouuxaxj-hn9l\.gvt1\.com$
+(?:^|\.)rr4---sn-ab5l6ndy\.gvt1\.com$
 (?:^|\.)rr4---sn-aigzrnz7\.gvt1\.com$
 (?:^|\.)rr4---sn-aj4g55-52\.gvt1\.com$
 (?:^|\.)rr4---sn-aj5goc-5j\.gvt1\.com$
 (?:^|\.)rr4\.sn-aj5goc-5x\.gvt1\.com$
 (?:^|\.)rr4---sn-aj5goc-5x\.gvt1\.com$
+(?:^|\.)rr4---sn-ajab55-55\.gvt1\.com$
 (?:^|\.)rr4---sn-ajf5f5-5p\.gvt1\.com$
 (?:^|\.)rr4---sn-ajhp55-5p\.gvt1\.com$
 (?:^|\.)rr4---sn-gvnuxaxjvh-c356\.gvt1\.com$
@@ -696,6 +706,7 @@
 (?:^|\.)rr5---sn-5goeenes\.gvt1\.com$
 (?:^|\.)rr5---sn-5goeenez\.gvt1\.com$
 (?:^|\.)rr5---sn-5hne6n6l\.gvt1\.com$
+(?:^|\.)rr5---sn-5hne6nsd\.gvt1\.com$
 (?:^|\.)rr5---sn-5hne6nsr\.gvt1\.com$
 (?:^|\.)rr5---sn-ab5l6nrk\.gvt1\.com$
 (?:^|\.)rr5---sn-aigzrn7e\.gvt1\.com$
@@ -741,14 +752,17 @@
 (?:^|\.)rr5---sn-n8v7znsr\.gvt1\.com$
 (?:^|\.)rr5---sn-n8v7znsy\.gvt1\.com$
 (?:^|\.)rr5---sn-n8v7znze\.gvt1\.com$
+(?:^|\.)rr5---sn-p5qlsndk\.gvt1\.com$
 (?:^|\.)rr5---sn-pivhx-n8vz\.gvt1\.com$
 (?:^|\.)rr5---sn-qjp5q5-5b\.gvt1\.com$
 (?:^|\.)rr5\.sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr5---sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr5---sn-u14g55-cb\.gvt1\.com$
 (?:^|\.)rr5---sn-u14g55-cc\.gvt1\.com$
+(?:^|\.)rr5---sn-u15hn5-c5\.gvt1\.com$
 (?:^|\.)rr5---sn-u1t0a5-5j\.gvt1\.com$
 (?:^|\.)rr5---sn-vgqskn6d\.gvt1\.com$
+(?:^|\.)rr5---sn-vgqsrn6k\.gvt1\.com$
 (?:^|\.)rr5---sn-vgqsrne6\.gvt1\.com$
 (?:^|\.)rr5---sn-vgqsrnes\.gvt1\.com$
 (?:^|\.)rr6---sn-8ph2xajvh-n8vs\.gvt1\.com$
