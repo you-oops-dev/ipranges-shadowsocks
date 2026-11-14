@@ -41,11 +41,11 @@ jobs:
          sleep 3s
          nc -z -v 127.0.0.53 53 && echo ""
 
-      - name: Test DNS-query
-        run: |
-         nslookup -type=A google.com
-         echo ""
-         dig google.com A
+#      - name: Test DNS-query
+#        run: |
+#         nslookup -type=A google.com
+#         echo ""
+#         dig google.com A
       
       - name: Prepare packages
         run: sudo apt install -y dos2unix curl gawk language-pack-ru language-pack-en locales moreutils coreutils util-linux bash git && sudo sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && sudo locale-gen --no-purge en_US.UTF-8
