@@ -22,6 +22,7 @@
 (?:^|\.)e2c19\.gcp\.gvt2\.com$
 (?:^|\.)e2c1\.gcp\.gvt2\.com$
 (?:^|\.)e2c20\.gcp\.gvt2\.com$
+(?:^|\.)e2c21\.gcp\.gvt2\.com$
 (?:^|\.)e2c22\.gcp\.gvt2\.com$
 (?:^|\.)e2c23\.gcp\.gvt2\.com$
 (?:^|\.)e2c24\.gcp\.gvt2\.com$
@@ -47,11 +48,13 @@
 (?:^|\.)e2c46\.gcp\.gvt2\.com$
 (?:^|\.)e2c47\.gcp\.gvt2\.com$
 (?:^|\.)e2c48\.gcp\.gvt2\.com$
+(?:^|\.)e2c49\.gcp\.gvt2\.com$
 (?:^|\.)e2c4\.gcp\.gvt2\.com$
 (?:^|\.)e2c50\.gcp\.gvt2\.com$
 (?:^|\.)e2c51\.gcp\.gvt2\.com$
 (?:^|\.)e2c52\.gcp\.gvt2\.com$
 (?:^|\.)e2c53\.gcp\.gvt2\.com$
+(?:^|\.)e2c54\.gcp\.gvt2\.com$
 (?:^|\.)e2c55\.gcp\.gvt2\.com$
 (?:^|\.)e2c56\.gcp\.gvt2\.com$
 (?:^|\.)e2c57\.gcp\.gvt2\.com$
@@ -365,6 +368,7 @@
 (?:^|\.)rr1---sn-ajab55-5a\.gvt1\.com$
 (?:^|\.)rr1---sn-ajab55-cx\.gvt1\.com$
 (?:^|\.)rr1---sn-ajaig5-51\.gvt1\.com$
+(?:^|\.)rr1---sn-ajf5f5-5p\.gvt1\.com$
 (?:^|\.)rr1---sn-f5f7lnly\.gvt1\.com$
 (?:^|\.)rr1---sn-g5njvh-n8vl\.gvt1\.com$
 (?:^|\.)rr1\.sn-g5njvh-n8vl\.gvt1\.com$
@@ -454,6 +458,7 @@
 (?:^|\.)rr2---sn-2op5q5-5n\.gvt1\.com$
 (?:^|\.)rr2\.sn-2op5q5-5n\.gvt1\.com$
 (?:^|\.)rr2---sn-2op5q5-5t\.gvt1\.com$
+(?:^|\.)rr2---sn-2op5q5-5u\.gvt1\.com$
 (?:^|\.)rr2---sn-4g5ednde\.gvt1\.com$
 (?:^|\.)rr2---sn-4g5ednky\.gvt1\.com$
 (?:^|\.)rr2---sn-4g5ednly\.gvt1\.com$
@@ -479,6 +484,7 @@
 (?:^|\.)rr2\.sn-ab5l6ny7\.gvt1\.com$
 (?:^|\.)rr2---sn-aj5go5-5i\.gvt1\.com$
 (?:^|\.)rr2---sn-aj5go5-5p\.gvt1\.com$
+(?:^|\.)rr2---sn-aj5goc-5x\.gvt1\.com$
 (?:^|\.)rr2---sn-ajab55-5g\.gvt1\.com$
 (?:^|\.)rr2---sn-gvnuxaxjvh-c356\.gvt1\.com$
 (?:^|\.)rr2---sn-gvnuxaxjvh-c35d\.gvt1\.com$
@@ -534,6 +540,7 @@
 (?:^|\.)rr2---sn-p5qlsn6s\.gvt1\.com$
 (?:^|\.)rr2---sn-p5qlsnd6\.gvt1\.com$
 (?:^|\.)rr2---sn-p5qs7n6y\.gvt1\.com$
+(?:^|\.)rr2---sn-p5qs7nd7\.gvt1\.com$
 (?:^|\.)rr2---sn-qjp5q5-5c\.gvt1\.com$
 (?:^|\.)rr2\.sn-qjp5q5-5c\.gvt1\.com$
 (?:^|\.)rr2---sn-tt1e7nl6\.gvt1\.com$
@@ -554,6 +561,7 @@
 (?:^|\.)rr2---sn-vgqsrnz7\.offline-maps\.gvt1\.com$
 (?:^|\.)rr2\.sn-vgqsrnz7\.offline-maps\.gvt1\.com$
 (?:^|\.)rr3---sn-2oaig5-c5\.gvt1\.com$
+(?:^|\.)rr3---sn-2of5f5-5i\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5g\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5m\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5n\.gvt1\.com$
@@ -590,6 +598,7 @@
 (?:^|\.)rr3---sn-ajaig5-5o\.gvt1\.com$
 (?:^|\.)rr3---sn-ajf5f5-5a\.gvt1\.com$
 (?:^|\.)rr3---sn-f5f7kn7e\.gvt1\.com$
+(?:^|\.)rr3---sn-f5fz7n7s\.gvt1\.com$
 (?:^|\.)rr3---sn-gvnuxaxjvh-c356\.gvt1\.com$
 (?:^|\.)rr3---sn-gvnuxaxjvh-c35d\.gvt1\.com$
 (?:^|\.)rr3---sn-gvnuxaxjvh-c35s\.gvt1\.com$
@@ -636,6 +645,7 @@
 (?:^|\.)rr3---sn-oguelnzs\.gvt1\.com$
 (?:^|\.)rr3---sn-oguesndl\.gvt1\.com$
 (?:^|\.)rr3\.sn-oj5hn5-50\.gvt1\.com$
+(?:^|\.)rr3---sn-p5qddn7k\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsn6z\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsn7d\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsnd6\.gvt1\.com$
@@ -685,13 +695,18 @@
 (?:^|\.)rr4---sn-ab5l6ndy\.gvt1\.com$
 (?:^|\.)rr4---sn-aigzrnz7\.gvt1\.com$
 (?:^|\.)rr4---sn-aj4g55-52\.gvt1\.com$
+(?:^|\.)rr4---sn-aj5go5-53\.gvt1\.com$
 (?:^|\.)rr4---sn-aj5go5-5i\.gvt1\.com$
 (?:^|\.)rr4---sn-aj5goc-5j\.gvt1\.com$
 (?:^|\.)rr4---sn-aj5goc-5x\.gvt1\.com$
 (?:^|\.)rr4\.sn-aj5goc-5x\.gvt1\.com$
 (?:^|\.)rr4---sn-ajab55-55\.gvt1\.com$
+(?:^|\.)rr4---sn-ajf5f5-53\.gvt1\.com$
 (?:^|\.)rr4---sn-ajf5f5-5p\.gvt1\.com$
 (?:^|\.)rr4---sn-ajhp55-5p\.gvt1\.com$
+(?:^|\.)rr4---sn-f5f7kn7e\.gvt1\.com$
+(?:^|\.)rr4---sn-f5f7lnly\.gvt1\.com$
+(?:^|\.)rr4---sn-f5fz7n7s\.gvt1\.com$
 (?:^|\.)rr4---sn-gvnuxaxjvh-c356\.gvt1\.com$
 (?:^|\.)rr4---sn-gvnuxaxjvh-c35d\.gvt1\.com$
 (?:^|\.)rr4---sn-gvnuxaxjvh-c35s\.gvt1\.com$
@@ -791,6 +806,9 @@
 (?:^|\.)rr5---sn-aj5goc-5j\.gvt1\.com$
 (?:^|\.)rr5---sn-aj5goc-5x\.gvt1\.com$
 (?:^|\.)rr5---sn-ajf5f5-5a\.gvt1\.com$
+(?:^|\.)rr5---sn-f5f7kn7e\.gvt1\.com$
+(?:^|\.)rr5---sn-f5f7lnly\.gvt1\.com$
+(?:^|\.)rr5---sn-f5fz7n7s\.gvt1\.com$
 (?:^|\.)rr5---sn-gvnuxaxjvh-c35d\.gvt1\.com$
 (?:^|\.)rr5---sn-gvnuxaxjvh-c35s\.gvt1\.com$
 (?:^|\.)rr5---sn-gvnuxaxjvh-c35z\.gvt1\.com$
