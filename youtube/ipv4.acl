@@ -33,6 +33,8 @@
 (?:^|\.)e2c29\.gcp\.gvt2\.com$
 (?:^|\.)e2c2\.gcp\.gvt2\.com$
 (?:^|\.)e2c31\.gcp\.gvt2\.com$
+(?:^|\.)e2c32\.gcp\.gvt2\.com$
+(?:^|\.)e2c33\.gcp\.gvt2\.com$
 (?:^|\.)e2c34\.gcp\.gvt2\.com$
 (?:^|\.)e2c35\.gcp\.gvt2\.com$
 (?:^|\.)e2c37\.gcp\.gvt2\.com$
@@ -72,9 +74,11 @@
 (?:^|\.)e2c6\.gcp\.gvt2\.com$
 (?:^|\.)e2c70\.gcp\.gvt2\.com$
 (?:^|\.)e2c72\.gcp\.gvt2\.com$
+(?:^|\.)e2c73\.gcp\.gvt2\.com$
 (?:^|\.)e2c74\.gcp\.gvt2\.com$
 (?:^|\.)e2c75\.gcp\.gvt2\.com$
 (?:^|\.)e2c76\.gcp\.gvt2\.com$
+(?:^|\.)e2c77\.gcp\.gvt2\.com$
 (?:^|\.)e2c78\.gcp\.gvt2\.com$
 (?:^|\.)e2c79\.gcp\.gvt2\.com$
 (?:^|\.)e2c7\.gcp\.gvt2\.com$
@@ -83,9 +87,11 @@
 (?:^|\.)e2c83\.gcp\.gvt2\.com$
 (?:^|\.)e2c84\.gcp\.gvt2\.com$
 (?:^|\.)e2c85\.gcp\.gvt2\.com$
+(?:^|\.)e2c87\.gcp\.gvt2\.com$
 (?:^|\.)e2c8\.gcp\.gvt2\.com$
 (?:^|\.)e2c9\.gcp\.gvt2\.com$
 (?:^|\.)e2cs25\.gcp\.gvt2\.com$
+(?:^|\.)e2cs51\.gcp\.gvt2\.com$
 (?:^|\.)edgedl\.me\.gvt1\.com$
 (?:^|\.)es\.youtube\.wikia\.com$
 (?:^|\.)fr\.youtube\.wikia\.com$
@@ -438,6 +444,7 @@
 (?:^|\.)rr1---sn-qjp5q5-5h\.gvt1\.com$
 (?:^|\.)rr1\.sn-qjp5q5-5h\.gvt1\.com$
 (?:^|\.)rr1---sn-qjp5q5-5q\.gvt1\.com$
+(?:^|\.)rr1---sn-qjp5q5-5x\.gvt1\.com$
 (?:^|\.)rr1---sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr1\.sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr1---sn-tt1e7nlz\.gvt1\.com$
@@ -458,6 +465,7 @@
 (?:^|\.)rr2---sn-2op5q5-52\.gvt1\.com$
 (?:^|\.)rr2---sn-2op5q5-58\.gvt1\.com$
 (?:^|\.)rr2---sn-2op5q5-5f\.gvt1\.com$
+(?:^|\.)rr2---sn-2op5q5-5g\.gvt1\.com$
 (?:^|\.)rr2---sn-2op5q5-5n\.gvt1\.com$
 (?:^|\.)rr2\.sn-2op5q5-5n\.gvt1\.com$
 (?:^|\.)rr2---sn-2op5q5-5t\.gvt1\.com$
@@ -545,6 +553,7 @@
 (?:^|\.)rr2---sn-p5qlsnd6\.gvt1\.com$
 (?:^|\.)rr2---sn-p5qs7n6y\.gvt1\.com$
 (?:^|\.)rr2---sn-p5qs7nd7\.gvt1\.com$
+(?:^|\.)rr2---sn-p5qs7nsk\.gvt1\.com$
 (?:^|\.)rr2---sn-qjp5q5-5c\.gvt1\.com$
 (?:^|\.)rr2\.sn-qjp5q5-5c\.gvt1\.com$
 (?:^|\.)rr2---sn-tt1e7nl6\.gvt1\.com$
@@ -566,6 +575,7 @@
 (?:^|\.)rr2\.sn-vgqsrnz7\.offline-maps\.gvt1\.com$
 (?:^|\.)rr3---sn-2oaig5-c5\.gvt1\.com$
 (?:^|\.)rr3---sn-2of5f5-5i\.gvt1\.com$
+(?:^|\.)rr3---sn-2op5q5-52\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5g\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5m\.gvt1\.com$
 (?:^|\.)rr3---sn-2op5q5-5n\.gvt1\.com$
@@ -651,12 +661,15 @@
 (?:^|\.)rr3---sn-oguesndl\.gvt1\.com$
 (?:^|\.)rr3\.sn-oj5hn5-50\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qddn7k\.gvt1\.com$
+(?:^|\.)rr3---sn-p5qddn7z\.gvt1\.com$
+(?:^|\.)rr3---sn-p5qlsn6s\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsn6z\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsn7d\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsnd6\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsndr\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qlsndz\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qs7n6y\.gvt1\.com$
+(?:^|\.)rr3---sn-p5qs7nd7\.gvt1\.com$
 (?:^|\.)rr3---sn-p5qs7nsk\.gvt1\.com$
 (?:^|\.)rr3---sn-pivhx-n8vd\.gvt1\.com$
 (?:^|\.)rr3---sn-pivhx-n8vz\.gvt1\.com$
@@ -677,6 +690,7 @@
 (?:^|\.)rr3---sn-vgqsrnsd\.gvt1\.com$
 (?:^|\.)rr3---sn-vgqsrnzd\.gvt1\.com$
 (?:^|\.)rr4---sn-2of5f5-5i\.gvt1\.com$
+(?:^|\.)rr4---sn-2op5q5-5f\.gvt1\.com$
 (?:^|\.)rr4---sn-2op5q5-5g\.gvt1\.com$
 (?:^|\.)rr4---sn-2op5q5-5t\.gvt1\.com$
 (?:^|\.)rr4---sn-4g5e6nsr\.gvt1\.com$
@@ -786,6 +800,8 @@
 (?:^|\.)rr5---sn-2ohpa5-5c\.gvt1\.com$
 (?:^|\.)rr5---sn-2op5q5-52\.gvt1\.com$
 (?:^|\.)rr5---sn-2op5q5-58\.gvt1\.com$
+(?:^|\.)rr5---sn-2op5q5-5g\.gvt1\.com$
+(?:^|\.)rr5---sn-2op5q5-5m\.gvt1\.com$
 (?:^|\.)rr5---sn-2op5q5-5n\.gvt1\.com$
 (?:^|\.)rr5---sn-2op5q5-5t\.gvt1\.com$
 (?:^|\.)rr5---sn-2op5q5-5u\.gvt1\.com$
@@ -855,9 +871,11 @@
 (?:^|\.)rr5---sn-n8v7znsy\.gvt1\.com$
 (?:^|\.)rr5---sn-n8v7znze\.gvt1\.com$
 (?:^|\.)rr5---sn-oj5hn5-50\.gvt1\.com$
+(?:^|\.)rr5---sn-p5qddn7k\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qddn7z\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qlsn7d\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qlsndk\.gvt1\.com$
+(?:^|\.)rr5---sn-p5qlsndz\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qs7n6y\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qs7nd7\.gvt1\.com$
 (?:^|\.)rr5---sn-p5qs7nsk\.gvt1\.com$
@@ -865,6 +883,7 @@
 (?:^|\.)rr5---sn-qjp5q5-54\.gvt1\.com$
 (?:^|\.)rr5---sn-qjp5q5-5b\.gvt1\.com$
 (?:^|\.)rr5---sn-qjp5q5-5q\.gvt1\.com$
+(?:^|\.)rr5---sn-qjp5q5-5x\.gvt1\.com$
 (?:^|\.)rr5---sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr5\.sn-tt1e7nl6\.gvt1\.com$
 (?:^|\.)rr5---sn-u14g55-cb\.gvt1\.com$
